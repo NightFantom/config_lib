@@ -1,0 +1,11 @@
+---
+version: 1
+configs:
+  - name: some_key
+    refresh_time: 1
+    datasources:
+      - source_type: file
+        path: /user_config/user_config.json
+        optional: true
+      - source_type: file
+        path: /user_config/default_config.json
